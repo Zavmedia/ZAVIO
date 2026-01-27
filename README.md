@@ -1,292 +1,223 @@
-<div align="center">
-<img width="1200" height="475" alt="ZAVIO Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<p align="center">
+  <img src="assets/zavio-preview.png" alt="ZAVIO Interface" width="100%"/>
+</p>
 
-# ZAVIO - Intelligent Operating Assistant
+<h1 align="center">🤖 ZAVIO - Intelligent Operating Assistant</h1>
 
-**Your AI-Powered Business Companion for Financial Independence**
+<p align="center">
+  <b>Your AI-Powered Command Center for Everything</b><br/>
+  <i>Voice Control • Multi-Model AI • Task Automation • Real-Time Analytics</i>
+</p>
 
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite)](https://vitejs.dev/)
-[![OpenRouter](https://img.shields.io/badge/OpenRouter-API-FF6B6B)](https://openrouter.ai/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<p align="center">
+  <a href="#-features"><img src="https://img.shields.io/badge/Features-12+-blue?style=for-the-badge" alt="Features"/></a>
+  <a href="#-quick-start"><img src="https://img.shields.io/badge/Setup-2%20min-green?style=for-the-badge" alt="Quick Start"/></a>
+  <a href="#-tech-stack"><img src="https://img.shields.io/badge/AI-Multi--Model-purple?style=for-the-badge" alt="AI"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/stargazers"><img src="https://img.shields.io/github/stars/Zavmedia/ZAVIO?style=for-the-badge&color=yellow" alt="Stars"/></a>
+</p>
 
-</div>
+<p align="center">
+  <a href="#-demo">View Demo</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
 
 ---
 
-## 🎯 Overview
+## ⚡ What is ZAVIO?
 
-ZAVIO is a comprehensive AI assistant designed for entrepreneurs, freelancers, and developers. It combines multiple AI models, voice interaction, and a sci-fi inspired interface to help users with coding, business strategies, market research, and money-making opportunities.
+ZAVIO is a **next-generation AI assistant** with a stunning cyberpunk interface. It combines the power of multiple AI models (Gemini, Qwen, Gemma) with voice control, task automation, and real-time system analytics.
+
+> 🎯 **Think of it as JARVIS meets ChatGPT** - but open source and running locally on your machine.
+
+### 🎬 Demo
+
+https://github.com/user-attachments/assets/demo-placeholder
 
 ---
 
 ## ✨ Features
 
-### 🤖 AI Capabilities
-| Feature | Status | Description |
-|---------|--------|-------------|
-| **Multi-Model AI** | ✅ Complete | Routes tasks to specialized models (Gemini, Gemma, Qwen) |
-| **Smart Task Routing** | ✅ Complete | Automatically detects code, search, or general queries |
-| **Natural Language Chat** | ✅ Complete | Conversational interface with markdown support |
-| **Code Generation** | ✅ Complete | Python, JavaScript, TypeScript, SQL, and more |
+<table>
+<tr>
+<td width="50%">
 
-### 🎙️ Voice Interaction
-| Feature | Status | Description |
-|---------|--------|-------------|
-| **Voice Input (STT)** | ✅ Complete | Web Speech API for voice commands |
-| **Voice Output (TTS)** | ✅ Complete | Natural AI voice with stop button |
-| **Voice Shortcuts** | ✅ Complete | Custom triggers for quick commands |
+### 🎙️ Voice Control
+- **Hands-free operation** with Web Speech API
+- Automatic silence detection (2s auto-submit)
+- Natural voice responses with premium voices
+- Global stop button for interruption
 
-### 🎨 UI/UX
-| Feature | Status | Description |
-|---------|--------|-------------|
-| **Sci-Fi Interface** | ✅ Complete | Cyberpunk-inspired dark theme |
-| **Animated Logo** | ✅ Complete | JARVIS-style rotating reactor core |
-| **Transparent Chat** | ✅ Complete | Glassmorphism effects |
-| **Mobile Responsive** | ✅ Complete | Chat-only view on mobile |
-| **Text Selection** | ✅ Complete | Selectable & copyable output |
+</td>
+<td width="50%">
 
-### 🛠️ Developer Tools
-| Feature | Status | Description |
-|---------|--------|-------------|
-| **Markdown Rendering** | ✅ Complete | Code blocks, headers, lists |
-| **Image Canvas** | ✅ Complete | Zoom, download, expand images |
-| **System Monitor** | ✅ Complete | CPU, GPU, Memory gauges |
-| **Activity Logs** | ✅ Complete | Real-time decision history |
+### 🧠 Multi-Model AI
+- **Gemini 2.0 Flash** for documents & voice
+- **Qwen3** for coding & technical tasks
+- **Gemma 3** for general conversations
+- Smart auto-routing based on query type
 
-### 🌐 Deployment
-| Feature | Status | Description |
-|---------|--------|-------------|
-| **Cloudflare Tunnel** | ✅ Complete | Public HTTPS access without exposing IP |
-| **Multi-Device Access** | ✅ Complete | Works on phone, tablet, desktop |
+</td>
+</tr>
+<tr>
+<td width="50%">
 
----
+### ✅ Smart Task Detection
+- AI automatically detects tasks in conversation
+- "I need to call John tomorrow" → Auto-added to tasks
+- Real-time sync across all panels
+- Never forget important action items
 
-## 🏗️ Tech Stack
+</td>
+<td width="50%">
 
-### Frontend
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **Vite 6** - Build tool & dev server
-- **Tailwind CSS** - Styling
-- **Lucide React** - Icons
+### 📊 Real-Time Analytics
+- Live CPU, GPU, Memory monitoring
+- API latency tracking
+- ML metrics dashboard
+- System health visualization
 
-### Backend
-- **Node.js** - Runtime
-- **Express.js** - API server
-- **tsx** - TypeScript execution
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### AI Services
-- **OpenRouter API** - Multi-model access
-  - `google/gemini-2.0-flash-exp:free` - Voice & documents
-  - `google/gemma-3-27b-it:free` - General chat
-  - `qwen/qwen3-next-80b-a3b-instruct:free` - Coding tasks
+### 🎨 Cyberpunk UI
+- Stunning neon-themed dark interface
+- Animated waveform visualizations
+- Glassmorphism effects
+- Fully responsive design
 
-### Browser APIs
-- **Web Speech API** - Voice input (STT)
-- **SpeechSynthesis API** - Voice output (TTS)
-- **MediaDevices API** - Microphone access
+</td>
+<td width="50%">
+
+### 🔒 Privacy First
+- **100% local processing**
+- Your data never leaves your machine
+- API keys stored securely in `.env`
+- No telemetry or tracking
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📦 Installation
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- OpenRouter API Key (free tier available)
+- Node.js 18+
+- OpenRouter API key (free at [openrouter.ai](https://openrouter.ai))
 
-### Quick Start
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/zavio-intelligent-operating-assistant.git
-cd zavio-intelligent-operating-assistant
+git clone https://github.com/Zavmedia/ZAVIO.git
+cd ZAVIO
 
 # Install dependencies
 npm install
 
 # Configure environment
 cp .env.example .env
-# Edit .env and add your OPENROUTER_API_KEY
+# Add your OPENROUTER_API_KEY to .env
 
-# Start development servers
-npm run dev:server   # Backend (port 3001)
-npm run dev          # Frontend (port 3000)
+# Start the application
+npm run dev
 ```
 
-### Environment Variables
-
-```env
-# Required
-OPENROUTER_API_KEY=sk-or-v1-your-key-here
-
-# Optional
-GEMINI_API_KEY=           # If using Gemini directly
-AI_PROVIDER=openrouter    # 'openrouter' or 'gemini'
-PORT=3001                 # Backend port
-```
+Then open **http://localhost:5173** 🎉
 
 ---
 
-## 🚀 Usage
+## 🛠️ Tech Stack
 
-### Running Locally
-```bash
-# Terminal 1: Start backend
-npm run dev:server
-
-# Terminal 2: Start frontend
-npm run dev
-
-# Open http://localhost:3000
-```
-
-### Remote Access (Cloudflare Tunnel)
-```bash
-# Install cloudflared (one-time)
-winget install Cloudflare.cloudflared
-
-# Start tunnel
-cloudflared tunnel --url http://localhost:3000
-
-# Use the generated URL on any device
-```
-
-### Voice Commands
-1. Click the **MIC** button
-2. Allow microphone permission
-3. Speak your command
-4. ZAVIO will process and respond
-
-### Text-to-Speech
-1. Get a response from ZAVIO
-2. Click **🔊 SPEAK** to hear it
-3. Click **⬛ STOP VOICE** to interrupt
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | React 18, TypeScript, Vite 6, Tailwind CSS |
+| **Backend** | Node.js, Express.js, tsx |
+| **AI Models** | Gemini 2.0, Qwen3-80B, Gemma 3-27B |
+| **APIs** | OpenRouter, Web Speech API |
+| **Styling** | Custom Cyberpunk Theme, Lucide Icons |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-zavio---intelligent-operating-assistant/
-├── components/           # React components
-│   ├── CommandCenter.tsx # Main chat interface
-│   ├── ZavioLogo.tsx     # Animated logo
-│   ├── MarkdownRenderer.tsx
-│   ├── ImageCanvas.tsx
-│   └── ...
-├── server/               # Backend
-│   ├── index.ts          # Express server
-│   ├── routes/           # API routes
-│   └── services/         # AI services
-│       ├── openrouterService.ts
-│       ├── orchestrator.ts
-│       ├── imageService.ts
-│       └── mlAnalytics.ts
-├── services/             # Frontend services
-│   └── geminiService.ts  # API client
-├── App.tsx               # Main app
-├── vite.config.ts        # Vite configuration
-└── .env                  # Environment variables
+ZAVIO/
+├── 📂 components/       # React UI components
+│   ├── CommandCenter.tsx    # Main input interface
+│   ├── NotebookPanel.tsx    # Tasks & notes management
+│   └── MarkdownRenderer.tsx # Rich text rendering
+├── 📂 server/           # Backend API
+│   ├── services/            # AI orchestration
+│   └── routes/              # API endpoints
+├── 📂 services/         # Frontend services
+├── 📂 assets/           # Images & media
+├── App.tsx              # Main application
+└── README.md            # You are here!
 ```
 
 ---
 
-## 🔧 Configuration
+## 🎯 Roadmap
 
-### AI Model Routing
-
-| Task Type | Model | Trigger Keywords |
-|-----------|-------|------------------|
-| General | Gemma 3 27B | Default |
-| Coding | Qwen Coder | code, function, debug, python... |
-| Voice/Docs | Gemini Flash | voice, document, analyze... |
-| Web Search | Perplexity | search, latest, news... |
-
-### Vite Config (External Access)
-```typescript
-// vite.config.ts
-server: {
-  host: '0.0.0.0',
-  allowedHosts: ['.trycloudflare.com', '.ngrok.io']
-}
-```
-
----
-
-## 📋 Current Status
-
-### ✅ Completed Features
-- [x] Multi-model AI integration via OpenRouter
-- [x] Voice input with Web Speech API
-- [x] Natural TTS with stop button
-- [x] Sci-fi UI with animated logo
-- [x] Transparent chat interface
-- [x] Mobile-responsive layout
-- [x] Cloudflare Tunnel support
-- [x] Markdown rendering with code blocks
-- [x] Image viewing canvas
-- [x] Error handling with retries
-- [x] Session persistence
-
-### 🚧 Pending / In Progress
-- [ ] Image generation (requires OpenRouter credits)
-- [ ] ML Analytics persistence (data resets on server restart)
-- [ ] Full Perplexity integration for research
-- [ ] Authentication system
-- [ ] User preferences storage
-
-### 🔮 Future Roadmap
-- [ ] NotebookLLM integration for document analysis
-- [ ] Real-time streaming responses
-- [ ] Custom voice model integration
-- [ ] Plugin/extension system
+- [x] Multi-model AI orchestration
+- [x] Voice input with silence detection
+- [x] Auto voice response
+- [x] Smart task detection
+- [x] Real-time system analytics
+- [ ] Image generation (DALL-E/SD)
+- [ ] Perplexity research integration
+- [ ] Custom voice models
+- [ ] Plugin system
 - [ ] Multi-language support
-
----
-
-## 🐛 Known Issues
-
-| Issue | Workaround |
-|-------|------------|
-| Microphone blocked | Allow permission in browser settings |
-| "Provider returned error" | Check OpenRouter credits/API key |
-| Tunnel disconnects | Restart `cloudflared` command |
-| Voices not loading | Wait for page to fully load |
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
+Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+---
+
+## 💬 Community
+
+- ⭐ **Star this repo** to show support
+- 🐛 **Report bugs** via [Issues](https://github.com/Zavmedia/ZAVIO/issues)
+- 💡 **Request features** via [Discussions](https://github.com/Zavmedia/ZAVIO/discussions)
+- 🔀 **Submit PRs** to contribute
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🙏 Acknowledgments
+<p align="center">
+  <b>Built with ❤️ by <a href="https://github.com/Zavmedia">Zavmedia</a></b><br/>
+  <sub>If you find this project useful, please consider giving it a ⭐</sub>
+</p>
 
-- [OpenRouter](https://openrouter.ai/) - Multi-model API access
-- [Google Gemini](https://ai.google.dev/) - AI models
-- [Cloudflare](https://www.cloudflare.com/) - Tunnel service
-- [Tailwind CSS](https://tailwindcss.com/) - Styling framework
-
----
-
-<div align="center">
-
-**Built with ❤️ for entrepreneurs and developers**
-
-[Report Bug](https://github.com/your-repo/issues) · [Request Feature](https://github.com/your-repo/issues)
-
-</div>
+<p align="center">
+  <a href="https://github.com/Zavmedia/ZAVIO/stargazers">
+    <img src="https://img.shields.io/github/stars/Zavmedia/ZAVIO?style=social" alt="Stars"/>
+  </a>
+  <a href="https://github.com/Zavmedia/ZAVIO/network/members">
+    <img src="https://img.shields.io/github/forks/Zavmedia/ZAVIO?style=social" alt="Forks"/>
+  </a>
+  <a href="https://github.com/Zavmedia/ZAVIO/watchers">
+    <img src="https://img.shields.io/github/watchers/Zavmedia/ZAVIO?style=social" alt="Watchers"/>
+  </a>
+</p>
