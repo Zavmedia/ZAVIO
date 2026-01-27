@@ -1,0 +1,7 @@
+{
+  "name": "ZAVIO - Intelligent Operating Assistant",
+  "description": "Full-spectrum intelligent operating assistant designed to support life, work, learning, decision-making, and system control.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
