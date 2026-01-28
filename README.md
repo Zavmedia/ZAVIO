@@ -9,11 +9,38 @@
   <i>Voice Control • Multi-Model AI • Task Automation • Real-Time Analytics</i>
 </p>
 
+<!-- GitHub Stats Badges -->
 <p align="center">
-  <a href="#-features"><img src="https://img.shields.io/badge/Features-12+-blue?style=for-the-badge" alt="Features"/></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/Setup-2%20min-green?style=for-the-badge" alt="Quick Start"/></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/AI-Multi--Model-purple?style=for-the-badge" alt="AI"/></a>
-  <a href="https://github.com/Zavmedia/ZAVIO/stargazers"><img src="https://img.shields.io/github/stars/Zavmedia/ZAVIO?style=for-the-badge&color=yellow" alt="Stars"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/stargazers"><img src="https://img.shields.io/github/stars/Zavmedia/ZAVIO?style=for-the-badge&logo=github&logoColor=white&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/network/members"><img src="https://img.shields.io/github/forks/Zavmedia/ZAVIO?style=for-the-badge&logo=github&logoColor=white&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/issues"><img src="https://img.shields.io/github/issues/Zavmedia/ZAVIO?style=for-the-badge&logo=github&logoColor=white&color=red" alt="Issues"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Zavmedia/ZAVIO?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=green" alt="License"/></a>
+</p>
+
+<!-- Tech Stack Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+</p>
+
+<!-- AI Model Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Gemini_2.0-Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/Qwen3-80B-FF6B35?style=for-the-badge&logo=alibaba-cloud&logoColor=white" alt="Qwen"/>
+  <img src="https://img.shields.io/badge/Gemma_3-27B-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemma"/>
+  <img src="https://img.shields.io/badge/OpenRouter-API-00CED1?style=for-the-badge&logo=openai&logoColor=white" alt="OpenRouter"/>
+</p>
+
+<!-- Status Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="Version"/>
+  <img src="https://img.shields.io/badge/Maintained-Yes-green?style=flat-square" alt="Maintained"/>
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=flat-square" alt="Made with love"/>
 </p>
 
 <p align="center">
@@ -107,8 +134,12 @@ https://github.com/user-attachments/assets/demo-placeholder
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+
-- OpenRouter API key (free at [openrouter.ai](https://openrouter.ai))
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 18+"/>
+  <img src="https://img.shields.io/badge/npm-9+-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm 9+"/>
+  <img src="https://img.shields.io/badge/OpenRouter-API_Key-00CED1?style=flat-square&logo=key&logoColor=white" alt="OpenRouter API Key"/>
+</p>
 
 ### Installation
 
@@ -133,6 +164,35 @@ Then open **http://localhost:5173** 🎉
 ---
 
 ## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+  <br>React 18
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+  <br>TypeScript
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+  <br>Vite 6
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+  <br>Tailwind
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+  <br>Node.js
+</td>
+<td align="center" width="96">
+  <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+  <br>Express
+</td>
+</tr>
+</table>
 
 | Category | Technologies |
 |----------|-------------|
@@ -180,6 +240,10 @@ ZAVIO/
 
 ## 🤝 Contributing
 
+<p>
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge" alt="Contributions Welcome"/>
+</p>
+
 Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
@@ -192,10 +256,11 @@ Contributions are what make the open source community amazing! Any contributions
 
 ## 💬 Community
 
-- ⭐ **Star this repo** to show support
-- 🐛 **Report bugs** via [Issues](https://github.com/Zavmedia/ZAVIO/issues)
-- 💡 **Request features** via [Discussions](https://github.com/Zavmedia/ZAVIO/discussions)
-- 🔀 **Submit PRs** to contribute
+<p>
+  <a href="https://github.com/Zavmedia/ZAVIO/stargazers"><img src="https://img.shields.io/badge/⭐_Star_this_repo-Show_Support-yellow?style=for-the-badge" alt="Star"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/issues"><img src="https://img.shields.io/badge/🐛_Report_Bugs-Issues-red?style=for-the-badge" alt="Report Bugs"/></a>
+  <a href="https://github.com/Zavmedia/ZAVIO/discussions"><img src="https://img.shields.io/badge/💡_Request_Features-Discussions-purple?style=for-the-badge" alt="Request Features"/></a>
+</p>
 
 ---
 
@@ -206,7 +271,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <p align="center">
-  <b>Built with ❤️ by <a href="https://github.com/Zavmedia">Zavmedia</a></b><br/>
+  <img src="https://img.shields.io/badge/Built%20with-❤️%20by%20Zavmedia-red?style=for-the-badge" alt="Built with love"/>
+</p>
+
+<p align="center">
   <sub>If you find this project useful, please consider giving it a ⭐</sub>
 </p>
 
@@ -220,4 +288,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <a href="https://github.com/Zavmedia/ZAVIO/watchers">
     <img src="https://img.shields.io/github/watchers/Zavmedia/ZAVIO?style=social" alt="Watchers"/>
   </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" width="100%"/>
 </p>
